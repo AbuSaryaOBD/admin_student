@@ -26,5 +26,7 @@ return [
     'user'                  => 'User',
     'users'                 => 'Users',
     'guard_type'            => 'Guard Type',
+    'phone'                 => 'Phone',
+    'description'           => 'Description',
 
 ];
