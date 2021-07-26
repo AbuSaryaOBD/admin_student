@@ -59,6 +59,11 @@ class UserCrudController extends CrudController
                 'attribute' => 'name', // foreign key attribute that is shown to user
                 'model'     => config('permission.models.permission'), // foreign key model
             ],
+            [
+                'name'  => 'description',
+                'label' => trans('backpack::permissionmanager.description'),
+                'type'  => 'text',
+            ],
         ]);
 
         // Role Filter

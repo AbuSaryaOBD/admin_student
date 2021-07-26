@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ env('LANG', 'en') }}" dir="{{ env('DIR', 'ltr') }}">
+<html lang="{{ env('APP_LOCALE', 'en') }}" dir="{{ env('DIR', 'ltr') }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
