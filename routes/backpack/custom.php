@@ -16,6 +16,5 @@ Route::group([
     ),
     'namespace'  => 'App\Http\Controllers\Admin',
 ], function () { // custom admin routes
-    Route::get('/set_lang/{lang}/{dir}', function () {
-    });
+    Route::get('/set-locale/{locale}', 'LocaleController@setLocale')->name('set.locale');
 }); // this should be the absolute last line of this file
